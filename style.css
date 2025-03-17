@@ -415,11 +415,22 @@ margin-top: 210px;
     .swiper{
         height: 7vh;
     }
-    .card-list .card-item .card-image{
-        width: 100%;
-        object-fit: cover;
-        border-radius: 10px;
-        aspect-ratio: 16 / 9;
     
-    }
+.bodyy{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    background: linear-gradient(#ECEFFE, #CED6FB);
+}
+.bodyyy{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    background: linear-gradient(#ECEFFE, #CED6FB);
+}
+    
 }
