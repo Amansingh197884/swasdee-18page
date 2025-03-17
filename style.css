@@ -13,9 +13,45 @@ body {
     /* height: 120vh; */
     margin-top: 70px;
 }
-
-
-
+.ram{
+    padding: 16px;
+    margin-left: 5px;
+}
+.buttonn{
+text-decoration: none;
+background-color: aqua;
+padding: 20px;
+}
+ .headi{
+    margin-top: 15px;
+ }
+ .a-all{
+    padding: 15px;
+    text-decoration: none;
+    background-color:  rgb(168, 255, 206);
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+ }
+ .like{
+    padding-top: 15px;
+    padding: 10px;
+ }
+ .formm{
+    margin-top: 10px;
+ }
+ .form-height{
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666565;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+ 
 
 
 
