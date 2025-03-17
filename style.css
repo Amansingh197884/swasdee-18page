@@ -103,6 +103,23 @@ align-items: center;
         font-weight: 500;
         position: relative;
     }
+    .aan{
+        
+    justify-content: center;
+    height: 50vh;
+    /* height: 100%; */
+        background-color: #1f313e;
+        border-radius: 4px;
+        padding: 30px 35px 30px;
+        transition: 0.5s all ease;
+        margin-bottom: 30px;
+        position: relative;
+        z-index: 1;
+        font-size: 18px;
+        color: rgb(206, 203, 203);
+        font-weight: 500;
+        position: relative;
+    }
 .nn{
     justify-content: space-between;
 }
@@ -388,5 +405,21 @@ background-color: aquamarine;
     .h1, h1 {
         padding-top: 25px;
      
+    }
+    
+}
+@media screen and (max-width:330px){
+    .bodyy{
+margin-top: 210px;
+    }
+    .swiper{
+        height: 7vh;
+    }
+    .card-list .card-item .card-image{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        aspect-ratio: 16 / 9;
+    
     }
 }
