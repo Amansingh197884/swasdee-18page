@@ -12,6 +12,7 @@ body {
 .cont{
     /* height: 120vh; */
     margin-top: 70px;
+    margin-bottom: 50px;
 }
 .ram{
     padding: 16px;
@@ -51,7 +52,76 @@ padding: 20px;
     border: 1px solid #ced4da;
     border-radius: 5px;
 }
- 
+.new-para{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.g-5{
+align-items: center;
+}
+.about-img{
+    position: relative;
+    overflow: hidden;
+    padding-left: 0px;
+    padding: 50px;
+}
+.about-img img{
+    width: 100%;
+    border-radius: 10px;
+    min-height: 50vh;
+    
+}
+.yes{
+    margin-bottom: 5px;
+}
+.text{
+    padding-bottom: 30px;
+}
+.name{
+    background: url(https://sawasdeegroupofficial.com/img/banner1.png);
+    height: 70vh;
+    /* z-index: -1; */
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    
+}
+.aaa{
+    justify-content: center;
+    height: 50vh;
+    /* height: 100%; */
+        background-color: #1f313e;
+        border-radius: 4px;
+        padding: 30px 35px 30px;
+        transition: 0.5s all ease;
+        margin-bottom: 30px;
+        position: relative;
+        z-index: 1;
+        font-size: 18px;
+        color: rgb(206, 203, 203);
+        font-weight: 500;
+        position: relative;
+    }
+.nn{
+    justify-content: space-between;
+}
+.rr{
+    color: #fff;
+    margin: 30px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.mm{
+    display: inline-block;
+    font-size: 14px;
+    color: #b2c4cf;
+    border-radius: 4px;
+    padding: 10px 12px;
+    background-color: #33444f;
+    margin-bottom: 15px;
+    transition: 0.5s all ease;
+}
 
 
 
