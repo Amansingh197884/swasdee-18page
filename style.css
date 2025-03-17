@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666565;
+    background-color: #EFFDF5;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.cont{
+    /* height: 120vh; */
+    margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+.Aman{
+    justify-content: end;
+}
+
+
+
+
+
+
+
+.navbar-on{
+    justify-content: end;
+    
+}
+.nav-link{
+    margin: 10PX;
+}
+.ALL{
+    margin: 10PX;
+
+}
+.head{
+    margin-top: 13px;
+    font-weight: bold;
+    letter-spacing: normal;
+}
+.am h6{
+    margin: 20px;
+    border: dotted 1.5px  rgb(168, 255, 206);
+    padding: 15px;
+    box-shadow: 2px  rgb(168, 255, 206);
+    border-radius: 5px;
+}
