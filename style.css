@@ -160,3 +160,233 @@ align-items: center;
     box-shadow: 2px  rgb(168, 255, 206);
     border-radius: 5px;
 }
+.bodyy{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    background: linear-gradient(#ECEFFE, #CED6FB);
+}
+.bodyyy{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    background: linear-gradient(#ECEFFE, #CED6FB);
+}
+.card-wrapper{
+    max-width: 1100px;
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.card-list .card-item{
+    list-style: none;
+}
+.card-list .card-item .card-link{
+    display: block;
+    user-select: none;
+    background: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+    margin: 20px;
+}
+.card-list .card-item .card-link:active{
+    cursor: grabbing;
+}
+
+.card-list .card-item .card-link:hover{
+ border-color: #5372F0;
+}
+.card-list .card-item .card-image{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    aspect-ratio: 16 / 9;
+
+}
+.card-list .card-link .like{
+    color: #5372F0;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 16px 0 18px;
+    background: #DDE4FF;
+    width: fit-content;
+    border-radius: 50px;
+}
+.card-list .card-link .card-title{
+    font-size: 1.19rem;
+    color: #000;
+    font-weight: 600;
+}
+.card-list .card-link .card-button{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin: 30px 0 5px;
+    background: none;
+    cursor: pointer;
+    border: 2px solid #5372F0;
+    color: #5372F0;
+}
+.card-list .card-link:hover .card-button{
+    color: #fff;
+    background: #5372F0;
+
+}
+.card-wrapper .swiper-pagination-bullet{
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background-color: #5372F0;
+}
+
+.card-wrapper .swiper-pagination-bullet-active{
+    opacity: 1;
+}
+.card-wrapper.swiper-slide-button{
+color: #5372F0;
+margin-top: -35px;
+}
+@media screen and(max-width:768px){
+    .card-wrapper{
+        margin: 0 10px 25px;
+    }
+    .card-wrapper.swiper-slide-button{
+        display: none;
+    }
+}
+
+.card-list .card-link .likee{
+    color: #5372F0;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 16px 0 18px;
+    background: #DDE4FF;
+    width: fit-content;
+    border-radius: 50px;
+    margin-bottom: -67px;
+    margin-left: 150px;
+}
+/* jvndf */
+.img22{
+    width: 100%;
+    margin: 20px;
+    border: 2px dotted rgb(168, 255, 206);
+box-shadow: 0px 10px 10px 10px  rgb(168, 255, 206);
+
+}
+.first{
+    margin: -18px;
+}
+.second{
+    /* margin: 30px; */
+    padding-top: 25px;
+}
+.kids{
+    /* background-color: rgb(168, 255, 206); */
+    border: 2px dotted rgb(168, 255, 206);
+    margin: 20px;
+
+}
+.car{
+    background-color: #311532;
+    align-items: center;
+}
+.type{
+    
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0c0c0c;
+    text-align: center;
+    
+    cursor: pointer;
+    
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 16px 55px;
+
+    font-size: 1rem;
+    border-radius: 5px;
+background-color: aquamarine;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.type:hover{
+    color: #000;
+    background-color: #5372F0;
+}
+.honest{
+    height: 70vh;
+    margin-top: 100px;
+    background-color: #121111;
+}
+.card-text{
+    padding: 20px;
+    color: #fff;
+}
+.color{
+    padding-top: 20px;
+    color: #fff;
+}
+.on{
+    margin-top: 30px;
+}
+.cut{
+    border-bottom: 2px #fff;
+}
+.text-green{
+    color: green;
+}
+.side{
+    margin-left: 400px;
+    color: green;
+}
+.row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.section-header{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.name::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+@media screen and (max-width:400px){
+    .img img{
+        width: 100%;
+        height: 50vh;
+    }
+    
+}
+@media screen and (max-width:400px){
+    .navbar-toggler{
+        margin-right: 100px;
+    }
+    .h1, h1 {
+        padding-top: 25px;
+     
+    }
+}
