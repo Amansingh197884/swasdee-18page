@@ -450,6 +450,10 @@ margin-top: 210px;
     .about-img{
         padding: 0;
     }
+    .about-img img{
+        height: 0;
+        width: 100%;
+    }
 }
 .honest{
     height: 70vh;
@@ -461,7 +465,7 @@ margin-top: 210px;
         margin: 20px;
     }
     .map{
-        margin-top: 20px;
+        margin-top: 50px;
         margin-bottom: 20px;
     }
     .type{
