@@ -463,6 +463,7 @@ margin-top: 210px;
     .honest{
         height: 0;
         margin: 20px;
+        margin-bottom: 1000px ;
     }
     .map{
         margin-top: 50px;
@@ -471,4 +472,9 @@ margin-top: 210px;
     .type{
         margin-bottom: 15px;
     }
+    .hii{
+    }
+}
+.hii{
+    margin-top: 50px;
 }
