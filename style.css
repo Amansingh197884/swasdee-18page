@@ -18,10 +18,16 @@ body {
     padding: 16px;
     margin-left: 5px;
 }
+.nike{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
 .buttonn{
 text-decoration: none;
-background-color: aqua;
+background-color: gray;
 padding: 20px;
+color: #000;
+border-radius: 10px;
 }
  .headi{
     margin-top: 15px;
@@ -68,7 +74,7 @@ align-items: center;
 .about-img img{
     width: 100%;
     border-radius: 10px;
-    min-height: 50vh;
+    min-height: 70vh;
     
 }
 .yes{
@@ -433,4 +439,32 @@ margin-top: 210px;
     background: linear-gradient(#ECEFFE, #CED6FB);
 }
     
+}
+.second{
+    margin-left: 50px;
+}
+@media screen and (max-width:340px){
+    .second{
+        margin: 0;
+    }
+    .about-img{
+        padding: 0;
+    }
+}
+.honest{
+    height: 70vh;
+    background-color: gray;
+}
+@media screen and (max-width:340px){
+    .honest{
+        height: 0;
+        margin: 20px;
+    }
+    .map{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .type{
+        margin-bottom: 15px;
+    }
 }
