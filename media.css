@@ -102,7 +102,13 @@
 }
 /* mobile  */
 @media screen and (max-width:340px){
-
+.name{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.boy{
+    padding-top: 10px;
+}
 
 
     
