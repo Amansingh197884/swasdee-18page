@@ -376,8 +376,11 @@ body {
 .card-wrapper .swiper-pagination-bullet-active {
     opacity: 1;
 }
-.wonders{
-    padding-left: 0;
+
+@media screen and(max-width:350px){
+    .wonders{
+        padding-left: 0;
+    }
 }
 
 .card-wrapper.swiper-slide-button {
