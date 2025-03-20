@@ -103,8 +103,8 @@
 /* mobile  */
 @media screen and (max-width:340px){
 .name{
-margin-top: 10px;
-margin-bottom: 10px;
+margin-top: 20px;
+margin-bottom: 15px;
 }
 .boy{
     padding-top: 10px;
