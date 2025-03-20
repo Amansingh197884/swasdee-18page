@@ -435,6 +435,7 @@ body {
     padding-top: 25px;
 }
 
+
 .kids {
     /* background-color: rgb(168, 255, 206); */
     border: 2px dotted rgb(168, 255, 206);
@@ -520,8 +521,9 @@ body {
 }
 
 .section-header {
-    margin-top: 4px;
+    margin-top: 20px;
     margin-left: -26px;
+    margin-bottom: 8PX;
 }
 
 .name::after {
@@ -639,7 +641,7 @@ body {
 }
 
 .h11 {
-    margin-left: 150px;
+    margin-left: 130px;
     margin-bottom: -26px;
 }
 
