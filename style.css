@@ -377,12 +377,6 @@ body {
     opacity: 1;
 }
 
-@media screen and(max-width:350px){
-    .wonders{
-        padding-left: 0;
-    }
-    
-}
 .wonders{
     padding-left: 0;
 }
@@ -394,15 +388,6 @@ body {
     margin-top: -35px;
 }
 
-@media screen and(max-width:768px) {
-    .card-wrapper {
-        /* margin: 0 10px 25px; */
-    }
-
-    .card-wrapper.swiper-slide-button {
-        display: none;
-    }
-}
 
 .card-list .card-link .likee {
     color: #5372F0;
@@ -541,74 +526,6 @@ body {
     transition: opacity 0.3s ease;
 }
 
-@media screen and (max-width:400px) {
-    .img img {
-        width: 100%;
-        height: 50vh;
-    }
-
-}
-
-@media screen and (max-width:400px) {
-    /* .navbar-toggler {
-        margin-right: 100px;
-    } */
-
-    .h1,
-    h1 {
-        padding-top: 25px;
-
-    }
-
-}
-
-@media screen and (max-width:330px) {
-    .bodyy {
-        margin-top: 210px;
-    }
-
-    .swiper {
-        height: 7vh;
-    }
-
-    .bodyy {
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 50vh;
-        /* background: linear-gradient(#ECEFFE, #CED6FB); */
-    }
-
-    .bodyyy {
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 50vh;
-        /* background: linear-gradient(#ECEFFE, #CED6FB); */
-    }
-
-}
-
-.second {
-    margin-left: 50px;
-}
-
-@media screen and (max-width:340px) {
-    .second {
-        margin: 0;
-    }
-
-    .about-img {
-        padding: 0;
-    }
-
-    .about-img img {
-        height: 0;
-        width: 100%;
-    }
-}
 
 .honest {
     height: 70vh;
